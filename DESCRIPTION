@@ -1,0 +1,16 @@
+Package: dataExample
+Title: Example for Conrad
+Version: 0.0.1
+Authors@R: 
+    person(given = "Rhian",
+           family = "Davies",
+           role = c("aut", "cre"),
+           email = "rhian@jumpingrivers.com")
+Description: A simple example demonstating storing data in R packages.
+Depends: R (>= 3.5.0)
+Imports: readr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
