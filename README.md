@@ -2,7 +2,7 @@
 Example  showing different ways to store data in an R package
 
 ## R data files
-* Have extension .RData or .rda
+* Have extension `.RData` or `.rda`
 * Can store multiple R objects
 * Object name is defined when the object is created using `save()`
 * Stored in the `data/` folder of the package
@@ -17,4 +17,4 @@ Example  showing different ways to store data in an R package
 * Name of object is specified when the object is read in with `readRDS()`
 * Stored in `inst/extdata`
 * Isn't documented
-* Accessed via users and functions with the `system.file()` function. This function only creates the file path. Then have to use appropriate function to read in. E.g. read_csv(system.file("extdata", "mtcars", package = "dataExample") or readRDS(system.file("extdata", "example_data", package = "dataExample")
+* Accessed via users and functions with the `system.file()` function. This function only creates the file path. Then have to use appropriate function to read in. E.g. `read_csv(system.file("extdata", "mtcars", package = "dataExample")` or `readRDS(system.file("extdata", "example_data", package = "dataExample")`
